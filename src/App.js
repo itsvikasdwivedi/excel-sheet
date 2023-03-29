@@ -1,10 +1,11 @@
 import './App.css';
-import DataGrid from './Component/TableComp';
+import TableSheet from './Component/TableSheet';
 
 function App() {
   return (
     <div className="App">
-     <DataGrid/>
+      <h1>Recordbook Task</h1>
+     <TableSheet/>
     </div>
   );
 }
